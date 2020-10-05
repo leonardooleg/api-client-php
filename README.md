@@ -71,7 +71,7 @@ if ($response->isSuccessful()) {
 $client = new \RetailCrm\ApiClient(
     'https://demo.retailcrm.ru',
     'T9DMPvuNt7FQJMszHUdG8Fkt6xHsqngH',
-    \RetailCrm\ApiClient::V4
+    \RetailCrm\ApiClient::V5
 );
 
 try {
@@ -113,7 +113,7 @@ if ($response->isSuccessful() && 201 === $response->getStatusCode()) {
 $client = new \RetailCrm\ApiClient(
     'https://demo.retailcrm.ru',
     'T9DMPvuNt7FQJMszHUdG8Fkt6xHsqngH',
-    \RetailCrm\ApiClient::V4
+    \RetailCrm\ApiClient::V5
 );
 
 $options = new \RetailCrm\Http\RequestOptions(
